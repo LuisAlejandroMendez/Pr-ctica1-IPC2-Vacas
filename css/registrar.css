@@ -22,7 +22,7 @@ div {
 header {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: whitesmoke;
-    background: orange;
+    background: lightsalmon;
     font-size: 20px;
     margin-top: 0px;
 }
@@ -55,7 +55,7 @@ header {
 }
 
 .form {
-    border-radius: 10%;
+    border-radius: 5%;
     float: right;
     background: orange;
     color: white;
