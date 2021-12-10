@@ -1,0 +1,125 @@
+* {
+    margin-top: 15px;
+    margin-inline: 20px;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    text-align: center;
+    background: orangered;
+}
+
+div {
+    display: inline-block;
+    color: brown;
+    margin-top: 3%;
+    height: 725px;
+}
+
+header {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: whitesmoke;
+    background: orange;
+    font-size: 20px;
+    margin-top: 0px;
+}
+
+.titulo {
+    background: orange;
+    color: wheat;
+    display: initial;
+    width: 200px;
+    height: auto;
+    margin-left: 5%;
+    border-radius: 10%;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.titulo h1 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 20%;
+    font-weight: 5 00;
+}
+
+.titulo h2 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 20%;
+    font-weight: 5 00;
+    margin-block-end: 5%;
+}
+
+.form {
+    border-radius: 10%;
+    float: right;
+    background: orange;
+    color: white;
+    margin-top: 50px;
+    margin-left: 5%;
+    width: 400px;
+    height: 95%;
+}
+
+.form input[type="text"],
+.form input[type="password"] {
+    border: 0;
+    color: white;
+    background: orangered;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid white;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+
+.form input[type="text"]:focus,
+.form input[type="password"]:focus {
+    width: 280px;
+    border-color: #2ecc71;
+}
+
+.form button {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 5px solid cyan;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.form button:hover {
+    background: #2ecc71;
+}
+
+::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 1;
+    /* Firefox */
+}
+
+.pie {
+    width: 100%;
+    height: 50px;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 1000;
+    color: #ffffff;
+    margin-top: 100px;
+    text-align: center;
+}
